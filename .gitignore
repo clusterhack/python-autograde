@@ -1,0 +1,52 @@
+### Project-specific
+
+/attic
+
+/assignment
+
+# XXX Perhaps just do *.zip .. any chance we'll ever want to commit one?
+/*.zip
+/etc/**/*.zip
+
+
+### General (editors, etc)
+
+# Emacs / Vi(m)
+*~
+*.bak
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.\#*
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+
+
+### Python
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Python distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
